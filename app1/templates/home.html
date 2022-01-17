@@ -1,0 +1,14 @@
+{% extends 'base.html' %} 
+{% comment %} this is the page title part that we inherit  in base.html means parent template{% endcomment %}
+{% block title %}
+HOME
+{% endblock title %}
+
+{% comment %} this part is the h2 that we inherit in base.html means parent template {% endcomment %}
+{% block h2 %}
+<b>
+
+    hello there we now home lets go
+</b>
+{{ block.super }}
+ {% endblock h2 %} 

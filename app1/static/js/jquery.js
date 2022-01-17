@@ -1,0 +1,1 @@
+console.log('hello im jquery in base.html using static files')
